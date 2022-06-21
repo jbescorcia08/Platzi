@@ -1,3 +1,17 @@
-.titulo{
-    font-family: monospace;
+
+/*selector*/
+p{
+    color:blue;
+    font-size:40px;
+}
+/* identificado por una clase*/
+.parrafo{
+    color:red;
+}
+
+
+/* identificado por ID*/
+#texto{
+    color:#ff0;
+    font-size:24px;
 }

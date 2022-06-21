@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-list{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: aquamarine;
+}
+.main-list_item{
+    display: inline-block;
+}
+.main-list_item a{
+    color: rgb(123, 23, 180);
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/* seudo clases*/
+.main-list_item a:hover{
+    color: tomato;
+    font-size: 120%;
+}
+.main-list_item a:active{
+    color: violet;
+}
+/*seudo elementos*/
+.main-list_item a::after{
+    content:" 🙅 ";
+}

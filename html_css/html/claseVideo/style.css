@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-video{
+    padding: 20px;
+    margin: 40px;
+
+}
+.main-video_item{
+    height: 80%;
+    right: 120%;
+}

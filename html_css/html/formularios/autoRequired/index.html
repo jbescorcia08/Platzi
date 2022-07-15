@@ -7,6 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <form action="">
+            <label for="nombre">
+                <span>Cual es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span>Cual es tu correo ?</span>
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>En que pais vives?</span>
+                <input type="text" name="pais" id="pais" autocomplete="country" required>
+            </label>
+            <label for="code">
+                <span>Codigo postal?</span>
+                <input type="number" name="code" id="code" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
 </body>
 </html>

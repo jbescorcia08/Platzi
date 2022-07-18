@@ -1,0 +1,32 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: serif;
+}
+#page-title{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.title{
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main-nav{
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 0;
+}
+#main-nav li {
+    display: inline-block;
+}
+#main-nav a {
+    color: rgb(24, 20, 20) ;
+    background-color: aqua;
+    border-radius: 5px;
+    text-decoration: none;
+}
+

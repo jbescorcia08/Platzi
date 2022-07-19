@@ -3,7 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
-    font-size: 75%;
+main{
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-size: inherit;
+}
+p{
+    font-size: inherit;
 }

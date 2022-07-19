@@ -1,0 +1,5 @@
+h2 ~ p{
+    color: red;
+}
+/* 2. Hermano general: Aplica el estilo siempre y cuando 
+coincida una p con un h2 en el mismo contenedor*/

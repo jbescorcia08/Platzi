@@ -1,0 +1,7 @@
+h2 + p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: purple;
+}
+/* 1. Hermano cercano: Aplica el estilo a 
+todas las etiquetas p que tenga cerca un h2 */

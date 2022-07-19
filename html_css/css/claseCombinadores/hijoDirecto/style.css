@@ -1,0 +1,14 @@
+/* 3. Hijo: Agregale estilos a una 
+etiqueta p que sea hijo directo de div */
+
+section > p {
+    color: red;
+}
+
+
+
+/* 4. Descendiente: 
+Todas las etiquetas de p que estén dentro de un div */
+div p{
+    color: rgb(135, 71, 255);
+}

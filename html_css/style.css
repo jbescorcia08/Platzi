@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+.nav-header{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    
+}
+.nav-list_items{
+    font-size: 20px;
+    display: inline-block;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.nav-list_items:first-child:before{
+    content: " 🤖 ";
+}
+
+.main-all{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.section-articles_one h2:hover
+{
+    color: blue;
+}
+.section-articles_one h2::after{
+    content: " @ ";
+}

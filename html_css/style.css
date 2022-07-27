@@ -13,7 +13,7 @@ body{
 .container{
     border: 0.3rem solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: s;
 }
 .box{
     width: 10rem;

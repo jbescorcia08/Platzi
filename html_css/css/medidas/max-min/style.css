@@ -10,11 +10,26 @@ main{
 }
 section{
     width: 80%;
+<<<<<<< HEAD
 
     min-width: 320px;
     max-width: 500px;
     min-height: 500px;
     
+=======
+    min-width: 320px;
+    max-width: 800px;
+    min-height: 500px;
+>>>>>>> 474ad17ae1f442da1ea4adc91efe8e402a5fe9ac
     background-color: wheat;
     margin: 0 auto;
+}
+.item{
+    width: 80%;
+    min-width: 320px;
+    max-width: 800px;
+    min-height: 100px;
+    background-color: blueviolet;
+    margin: 0 auto;
+
 }

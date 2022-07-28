@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* cabecera */
+
+.cabecera{
+    background: paleturquoise;
+    position: relative;
+    width: 100%;
+    height: 4rem;
+}
+.cabecera-logo{
+    position:absolute;
+    font-size: 2.5rem;
+}
+.cabecera-list{
+    font-size: 1.5rem;
+    list-style: none;
+    text-align: end
+}
+.cabecera-list_items{
+    display: inline-block;
+    margin: 1rem 0.5rem;
+    list-style: none;
+}
+/*section 1*/
+.one-section{
+    position: relative;
+    background-color: aliceblue;
+}
+div{
+    background: tomato;
+    width: 20%;
+    height: 9rem;
+    margin: 1rem;
+}
+.parrafo{
+    position: absolute;
+    top: 0;
+    left: 22%;
+}
+.piedepagina{
+    background-color: aquamarine;
+    width: 100%;
+    height: 8rem;
+}

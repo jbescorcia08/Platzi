@@ -1,0 +1,10 @@
+
+.inline li{
+    display: inline;
+}
+.block li{
+    display: block;
+}
+.inline-block li{
+    display: inline-block;
+}

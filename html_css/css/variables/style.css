@@ -1,0 +1,30 @@
+:root{
+    --primary-color: red;
+    --secundary-color: blue;
+    --header-size: 4rem;
+    --font-size: 1.8rem;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+section{
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: var(--primary-color);
+    font-size: var(--header-size);
+}
+p{
+    font-size: var(--font-size);
+    color: var(--secundary-color);
+}

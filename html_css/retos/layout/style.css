@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(19, 13, 13);
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header-container{
+    padding: 1rem 0.5rem;
+    font-size: 1.6rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    height: 6rem;
+    width: 100;
+    
+}
+.header-container a{
+    
+    margin-right: auto;
+    font-size: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+.header-list_items{
+    display: inline-block;
+    margin: 0 1rem;
+}
+button{
+    background-color: bisque;
+}

@@ -11,29 +11,37 @@ body{
     font-size: 1.6rem;
 }
 .container{
+    min-height: 50vh;
     border: 0.3rem solid black;
     display: flex;
-    justify-content: s;
+    flex-wrap: wrap;
 }
 .box{
-    width: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
     height: 10rem;
 }
 .box1{
     background-color: rgb(145, 126, 190);
+   
 }
 .box2{
     background-color: rgb(187, 111, 12);
+    
 }
 .box3{
     background-color: rgb(12, 114, 139);
+    
 }
 .box4{
     background-color: rgb(119, 6, 113);
+    
 }
 .box5{
     background-color: rgb(110, 49, 41);
+    
 }
 .box6{
     background-color: rgb(163, 5, 5);
+    
 }

@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* cabecera */
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-list_items{
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+
+}
+.logo{
+    text-decoration: none;
+    font-size: 2rem;
+    color: azure;
+}
+main{
+    background-color: rgb(153, 0, 255);
+    display: flex;
+    flex-direction: column;
+}
+.section-aside{
+    display: flex;
+}
+.aside-list{
+    background-color: aquamarine;
+}
+.aside-list_items{
+    height: 8rem;
+    width: 16rem;
+    flex-direction: column;
+}
+.parrafo{
+    padding-left: 3rem;
+    align-self: center;
+}
+footer{
+    height: 12rem;
+    background-color: antiquewhite;
+}

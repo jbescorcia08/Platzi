@@ -10,6 +10,10 @@ public class UsoVarTipoPrimitivo {
         
         var numeroEntero = 10;
         System.out.println("Numero entero; "+numeroEntero);
+        
+        var numeroFloat = 10.0f;
+        
+        System.out.println("Variable tipo Float: " + numeroFloat);
     }
 
 }

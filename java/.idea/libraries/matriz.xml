@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="matriz">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Estructuras_Control/matriz/matriz/dist/matriz.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

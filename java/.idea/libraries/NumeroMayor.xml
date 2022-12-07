@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NumeroMayor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ejercicios/NumeroMayor/dist/NumeroMayor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

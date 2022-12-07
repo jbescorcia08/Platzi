@@ -16,8 +16,11 @@ public class PasoPorReferencia {
         
         
         persona1.nombre = "juan";
-        persona1.apellido = "Lopez";
-        
-        System.out.println("Persona");
+        System.out.println("Persona : "+persona1.nombre);
+        CambioValor(persona1);
+        System.out.println("paso por referencia __Persona : "+persona1.nombre);
+    }
+    public static void CambioValor(Persona persona){
+        persona.nombre = "jesus";
     }
 }

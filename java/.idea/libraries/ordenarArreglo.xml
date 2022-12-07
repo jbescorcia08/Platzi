@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ordenarArreglo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ejercicios/ordenarArreglo/dist/ordenarArreglo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

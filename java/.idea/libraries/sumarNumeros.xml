@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sumarNumeros">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ejercicios/sumarNumeros/dist/sumarNumeros.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ordenBurbuja">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Estructuras_Control/vectores/ordenBurbuja/dist/ordenBurbuja.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

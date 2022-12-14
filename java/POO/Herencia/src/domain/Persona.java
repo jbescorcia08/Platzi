@@ -1,15 +1,18 @@
 package domain;
 
+import java.util.StringJoiner;
+
 public class Persona {
     protected String nombre;
     protected char genero;
     protected int edad;
     protected String direccion;
 
-    public Persona(){
+    public Persona() {
 
     }
-    public Persona(String nombre){
+
+    public Persona(String nombre) {
         this.nombre = nombre;
     }
 
@@ -52,13 +55,9 @@ public class Persona {
         this.direccion = direccion;
     }
 
+
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", genero=" + genero +
-                ", edad=" + edad +
-                ", direccion='" + direccion + '\'' +
-                '}';
+        return "Persona{"+"nombre="+nombre+", genero="+genero+", edad="+edad+", direccion="+direccion;
     }
 }

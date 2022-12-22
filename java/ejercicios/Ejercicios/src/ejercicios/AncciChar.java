@@ -1,3 +1,5 @@
+package ejercicios;
+
 import javax.swing.*;
 
 public class AncciChar {
@@ -7,6 +9,6 @@ public class AncciChar {
         ancciChar = (char) ancci;
 
 
-        System.out.print("Caracter en tabla ancci; "+ancciChar);
+        System.out.print("Caracter en tabla ancci; ["+ancciChar+"]");
     }
 }

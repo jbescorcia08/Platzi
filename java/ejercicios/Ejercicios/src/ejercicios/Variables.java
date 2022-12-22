@@ -1,3 +1,5 @@
+package ejercicios;
+
 public class Variables {
     /*
     * Declara dos variables numéricas (con el valor que desees), muestra

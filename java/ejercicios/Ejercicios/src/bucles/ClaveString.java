@@ -15,16 +15,16 @@ public class ClaveString {
     public static void main(String[] args) {
         String clave = "B4rr1os22";
         boolean correcto = true;
-        int i = 0;
+        int intentos = 1;
 
-        while(correcto != false || i < 3){
+        while(correcto == false || intentos < 3){
             String inputClave = JOptionPane.showInputDialog("Ingresa la clave:");
             if(clave == inputClave){
                 correcto = true;
                 JOptionPane.showMessageDialog(null, "Enhorabuena");
             }if(clave != inputClave){
-                JOptionPane.showMessageDialog(null,"Te quedan "+(i+1)+" INTENTOS.");
-                i++;
+                JOptionPane.showMessageDialog(null,"Te quedan "+intentos+" INTENTOS.");
+                intentos++;
             }
         }
     }

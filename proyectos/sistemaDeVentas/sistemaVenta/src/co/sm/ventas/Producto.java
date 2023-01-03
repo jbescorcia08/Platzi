@@ -1,2 +1,4 @@
-package co.sm.ventas;public class Producto {
+package co.sm.ventas;
+
+public class Producto {
 }

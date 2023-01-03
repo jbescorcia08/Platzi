@@ -1,2 +1,4 @@
-package testVentas;public class TestVentas {
+package testVentas;
+
+public class TestVentas {
 }

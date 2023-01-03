@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa423e1-a499-4a38-804f-905b107eb652" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ejercicios/Ejercicios/src/arreglos/domain/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicios/Ejercicios/src/arreglos/testArreglos/TestArreglos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicios/Ejercicios/src/arreglos/testArreglos/TestArreglosOdject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicios/Ejercicios/src/matrices/domain/Matrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ejercicios/Ejercicios/src/matrices/testDomain/TestMatriz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercicios/out/production/Ejercicios/bucles/Numeros.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercicios/out/production/Ejercicios/bucles/Numeros.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proyectos/sistemaDeVentas/sistemaVenta/src/co/sm/ventas/Orden.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../proyectos/sistemaDeVentas/sistemaVenta/src/co/sm/ventas/Orden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proyectos/sistemaDeVentas/sistemaVenta/src/co/sm/ventas/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../proyectos/sistemaDeVentas/sistemaVenta/src/co/sm/ventas/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proyectos/sistemaDeVentas/sistemaVenta/src/testVentas/TestVentas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../proyectos/sistemaDeVentas/sistemaVenta/src/testVentas/TestVentas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,14 +24,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/platzi/proyectos/sistemaDeVentas",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/platzi/proyectos/sistemaDeVentas&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

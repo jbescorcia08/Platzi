@@ -1,13 +1,12 @@
 public class Car {
     Integer id;
     String licence;
-    String driver;
+    Account driver;
     Integer passenger;
 
-    public Car(String licence, String driver, Integer passenger) {
+    public Car(String licence, Account driver){
         this.licence = licence;
         this.driver = driver;
-        this.passenger = passenger;
     }
 
     @Override

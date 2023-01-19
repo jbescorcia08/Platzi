@@ -1,9 +1,6 @@
-public class Cash extends Payments{
-    Integer id;
-
+public class Cash extends Payments {
     public Cash(Integer id) {
-        this.id = id;
+        super(id);
     }
 
-    
 }

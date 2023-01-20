@@ -7,4 +7,7 @@ public class UberX extends Car{
         this.brand = brand;
         this.model = model;
     }
+
+    
+    
 }

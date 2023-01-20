@@ -5,8 +5,7 @@ public class Account {
     String email;
     String password;
 
-    public Account(Integer id,String name, String document, String email, String password) {
-        this.id = id;
+    public Account(String name, String document, String email, String password) {
         this.name = name;
         this.document = document;
         this.email = email;
@@ -15,9 +14,14 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account [id=" + id + ", name=" + name + ", document=" + document + ", email=" + email + ", password="
-                + password + "]";
+        return "Account [name=" + name + ", document=" + document + ", email=" + email + ", password=" + password + "]";
     }
+
+    
+
+    
+
+    
 
     
 

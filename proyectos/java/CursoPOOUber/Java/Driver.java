@@ -1,7 +1,11 @@
-public class Driver extends Account{
-    Integer id;
+public class Driver extends Account{    
     
     public Driver(Integer id, String name, String document, String email, String password){
-        super(id,name, document, email, password);
+        super(name, document, email, password);
+
+    }
+    public void printDataDriver(){
+        System.out.println("id" + "Nombre: "+name+" Documento: "+document+
+        " email: "+email+ "Password: "+password);
     }
 }

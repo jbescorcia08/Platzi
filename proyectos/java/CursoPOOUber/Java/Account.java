@@ -17,8 +17,6 @@ public class Account {
     public String toString() {
         return "Account [id=" + id + ", name=" + name + ", document=" + document + ", email=" + email + ", password="
                 + password + "]";
-    }
-
-    
+    }  
 
 }

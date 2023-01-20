@@ -1,13 +1,10 @@
 public class User extends Account {
-    Integer id;
-
     public User(Integer id, String name, String document, String email, String password) {
-        super(id,name, document, email, password);
-    }
+        super(name, document, email, password);
 
-    @Override
-    public String toString() {
-        return "User [id=" + id + "]";
+    }    
+    public void printDataUser(){
+        System.out.println("id" + "Nombre: "+name+" Documento: "+document+
+        " email: "+email+ " Password: "+password);
     }
-    
 }

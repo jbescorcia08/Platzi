@@ -11,7 +11,9 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car [id=" + id + ", licence=" + licence + ", driver=" + driver + ", passenger=" + passenger + "]";
+        return "Car [licence=" + licence + ", driver=" + driver + "]";
     }
+
+    
     
 }

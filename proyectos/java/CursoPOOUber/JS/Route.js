@@ -1,4 +1,4 @@
-class Route{
+class Route {
     constructor(){
         this.id;
         this.init;

@@ -4,35 +4,54 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Movimiento cordenadasX, cordenadasY;
         Scanner sc = new Scanner(System.in);
 
         boolean dir = true;
+        int posicion, numeroX = 0, numeroY = 0;
+        Movimiento cordenadas = new Movimiento(numeroX,numeroY);
 
         while (dir) {
-            System.out.println("ingresa La posicion en X");
-            Integer numeroX = sc.nextInt();
-            System.out.println("Ingresa La posicion en Y");
-            Integer numeroY = sc.nextInt();
+            
+            System.out.println("\nMovimientos.\n"
+            +"1. arriba.\n"
+            +"2. abajo.\n"
+            +"3. izquierda.\n"
+            +"4. derecha.\n"
+            +"5. Donde estoy.\n"
+            +"0. Dejar de moverme !!\n");
+            posicion = sc.nextInt();
 
-            if(numeroX == numeroY){
-                cordenadasX = new Movimiento(numeroX);
-                cordenadasY = new Movimiento(numeroY);
-                cordenadasX.getPosicionX();
-                cordenadasY.getPosicionY();
-            }else if(numeroX > numeroY){
-                cordenadasX = new Movimiento(numeroX,numeroY);
-                cordenadasY = new Movimiento(numeroX,numeroY);
-                cordenadasX.getPosicionX();
-                cordenadasY.getPosicionY();
-            }else{
-                cordenadasX = new Movimiento(numeroX);
-                cordenadasY = new Movimiento(numeroY);
-                cordenadasX.getPosicionX();
-                cordenadasY.getPosicionY();
+            switch(posicion){
+                case 0:
+                    dir = false;
+                    break;
+                case 1:
+                    numeroX = 1;
+                    cordenadas.setPosicionX(numeroX);
+                    break;
+                case 2:
+                    numeroY = 1;
+                    cordenadas.setPosicionY(numeroY);
+                    break;
+                case 3:
+                    numeroX = -1;
+                    cordenadas.setPosicionX(numeroX);
+                    break;
+                case 4:
+                    numeroY = -1;
+                    cordenadas.setPosicionY(numeroY);
+                    break;
+                case 5:
+                    cordenadas.PrintCordenadas();
+                    break;
+                default:
+                    System.out.println("Datos ingresados NO validos.");
+                    break;
+                    
             }
-
-           System.out.println("deseas Continuar", dir ? true : false);
+            
         }
+        
+        
     }
 }

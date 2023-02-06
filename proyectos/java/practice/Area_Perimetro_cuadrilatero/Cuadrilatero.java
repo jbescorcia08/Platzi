@@ -1,3 +1,4 @@
+
 public class Cuadrilatero{
     private float lado1;
     private float lado2;

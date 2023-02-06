@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Persona_POO/src/clases",
-        "HolaMundo/src/pasoporreferencia"
+        "HolaMundo/src/pasoporreferencia",
+        "MyMedicalAppointments"
     ]
 }

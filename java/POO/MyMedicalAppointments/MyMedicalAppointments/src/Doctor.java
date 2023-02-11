@@ -10,6 +10,8 @@ public class Doctor {
     String email;
     String speciality;
 
+    
+
     Doctor(){
         System.out.println("Construyendo el Objeto Doctor");
     }

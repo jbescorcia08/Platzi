@@ -1,36 +1,30 @@
-package MyMedicalAppointments.src;
+package MyMedicalAppointments.src.model;
 
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Doctor {
+public class Doctor extends User{
     //Atributos
-    static int id = 0; //Autoincrement
-    String name;
-    String email;
+
     String speciality;
 
+
+    Doctor(String name, String email){
+        super(name, email);
+        System.out.println("El nombre del Doctor asignado es: " + name);
+        this.speciality = speciality;
+    }
     
 
-    Doctor(){
-        System.out.println("Construyendo el Objeto Doctor");
+    public String getSpeciality() {
+        return speciality;
     }
 
-    Doctor(String name, String speciality){
-        System.out.println("El nombre del Doctor asignado es: " + name);
-        id++;
-        this.name = name;
+    public void setSpeciality(String speciality) {
         this.speciality = speciality;
     }
 
-    //Comportamientos
-    public void showName(){
-        System.out.println(name);
-    }
 
-    public void showId(){
-        System.out.println("ID Doctor: " + id);
-    }
     ArrayList<AvailableApointment> availableApointments = new ArrayList<>();
     public void addAvailableAppointment(Date date, String time){
         availableApointments.add(new AvailableApointment(date, time));
@@ -39,19 +33,27 @@ public class Doctor {
     public ArrayList<AvailableApointment> getAvailableAppApointments(){
         return availableApointments;
     }
+    
+
+
+    @Override
+    public String toString() {
+        return super.toString()+
+        "\nDoctor [speciality=" + speciality + "]";
+    }
+
 
 
     public static class AvailableApointment{
-        private int id;
         private Date date;
         private String time;
 
                
         public AvailableApointment(Date date, String time) {
-            id++;
             this.date = date;
             this.time = time;
         }
+
 
         public Date getDate() {
             return date;
@@ -69,6 +71,13 @@ public class Doctor {
             this.time = time;
         }
 
+
+        @Override
+        public String toString() {
+            return super.toString()+
+            "AvailableApointment \ndate=" + date + ", \ntime=" + time ;
+        }
+        
         
              
     }

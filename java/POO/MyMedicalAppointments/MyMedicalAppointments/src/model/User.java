@@ -57,6 +57,6 @@ public abstract class User {
         ",\nphoneNumber="+ phoneNumber + "]";
     }
     
-
+    public abstract void printDataUser();
     
 }

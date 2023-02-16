@@ -82,4 +82,12 @@ public class Doctor extends User{
              
     }
 
+
+
+    @Override
+    public void printDataUser() {
+        // TODO Auto-generated method stub
+        System.out.println("Soy un doctor.");
+    }
+
 }

@@ -3,7 +3,9 @@ import static MyMedicalAppointments.src.ui.UIMenu.*;
 import java.util.Date;
 
 import MyMedicalAppointments.src.model.Doctor;
+import MyMedicalAppointments.src.model.Nurse;
 import MyMedicalAppointments.src.model.Patient;
+import MyMedicalAppointments.src.model.User;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,6 +23,18 @@ public class Main {
         myDoctor.addAvailableAppointment(new Date(), "14:12");
         myDoctor.addAvailableAppointment(new Date(), "15:12");
         System.out.println(myDoctor);
+
+        User userDoc = new Doctor("jesus", "jesus@jesus.com");
+        System.out.println(userDoc);
+        userDoc.printDataUser();
+
+        User userNu = new Nurse("jessi", "jessi@jessi.com", "pediatra");
+        System.out.println(userNu);
+        userNu.printDataUser();
+
+        User userPa = new Patient("kessi", "jessi@jessi.com");
+        System.out.println(userPa);
+        userPa.printDataUser();
         /*
         for (Doctor.AvailableApointment aA : myDoctor.getAvailableAppApointments()) {
             System.out.println(aA.getDate()+" "+aA.getTime());

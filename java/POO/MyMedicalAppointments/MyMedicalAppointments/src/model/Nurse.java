@@ -16,6 +16,12 @@ public class Nurse extends User{
     public void setSpecility(String specility) {
         this.specility = specility;
     }
+
+    @Override
+    public void printDataUser() {
+        // TODO Auto-generated method stub
+        System.out.println("SOy una enfermera.");
+    }
     
 
 }

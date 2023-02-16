@@ -57,5 +57,11 @@ public class Patient extends User{
         ", \nheight=" + getHeight() + 
         ", \nblood=" + getBlood() + "]";
     }
+
+    @Override
+    public void printDataUser() {
+        System.out.println("Soy un paciente.");
+        
+    }
     
 }

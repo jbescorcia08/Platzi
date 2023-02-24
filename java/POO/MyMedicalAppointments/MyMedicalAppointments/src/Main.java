@@ -35,6 +35,9 @@ public class Main {
         User userPa = new Patient("kessi", "jessi@jessi.com");
         System.out.println(userPa);
         userPa.printDataUser();
+
+
+        
         /*
         for (Doctor.AvailableApointment aA : myDoctor.getAvailableAppApointments()) {
             System.out.println(aA.getDate()+" "+aA.getTime());

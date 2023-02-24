@@ -68,7 +68,7 @@ public class UIMenu {
                 for(Doctor d : doctors){
                     if(d.getEmail().equals(email)){
                         emailCorret = true; 
-                        //odtener los datos del usuarios
+                        //obtener los datos del usuarios
                         doctorLogged = d;
                         //showDoctorMenu
                     }

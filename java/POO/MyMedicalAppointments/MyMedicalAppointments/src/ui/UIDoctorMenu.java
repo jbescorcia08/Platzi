@@ -33,7 +33,7 @@ public class UIDoctorMenu {
         do {
             System.out.println();
             System.out.println("::Add available appointments");
-            System.out.println("Selecciona un mes");
+            System.out.println("Select a monts");
 
             for (int i = 0; i < 3; i++) {
                 int j = i + 1;

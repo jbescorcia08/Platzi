@@ -71,6 +71,7 @@ public class UIMenu {
                         //obtener los datos del usuarios
                         doctorLogged = d;
                         //showDoctorMenu
+                        UIDoctorMenu.showDoctorMenu();
                     }
                 }
             }

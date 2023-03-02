@@ -43,11 +43,21 @@ public class UiPatientMenu {
             //indice fecha seleccion
 
             Map<Integer, Map<Integer, Doctor>> doctors = new TreeMap<>();
+            int k = 0;
             for (int i = 0; i < UIDoctorMenu.doctorAvailableAppointments.size(); i++) {
                 ArrayList<Doctor.AvailableApointment> availableAppointments = UIDoctorMenu.doctorAvailableAppointments.get(i).getAvailableAppApointments();
 
                 Map<Integer, Doctor> doctorAppointment = new TreeMap<>();
                 System.out.println();
+                for (int j = 0; j < availableAppointments.size(); j++) {
+                    k++;
+                    System.out.println(k+". "+availableAppointments.get(j).getDate());
+                    doctorAppointment.put(Integer.valueOf(j), UIDoctorMenu.doctorAvailableAppointments.get(i));
+                    doctors.put(Integer.valueOf(k), doctorAppointment);
+
+                }
+                Scanner sc = new Scanner(System.in);
+                int responseDateSelected = Integer.valueOf(sc.nextLine());
             }
         }while(response != 0);
     }
